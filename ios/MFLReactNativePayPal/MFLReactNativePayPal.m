@@ -7,9 +7,9 @@
 //
 
 #import "MFLReactNativePayPal.h"
-#import "RCTBridge.h"
+#import <React/RCTBridge.h>
 #import "PayPalMobile.h"
-#import "RCTConvert.h"
+#import <React/RCTConvert.h>
 
 NSString * const kPayPalPaymentStatusKey              = @"status";
 NSString * const kPayPalPaymentConfirmationKey        = @"confirmation";
